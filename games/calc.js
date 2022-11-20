@@ -3,7 +3,7 @@ const operations = ['+', '-', '*'];
 const maxNumber = 100;
 
 export const getRound = () => {
-  const randomIndex = Math.floor(Math.random() * (operations.length - 1));
+  const randomIndex = Math.floor(Math.random() * (operations.length));
   const firstNumber = Math.trunc(Math.random() * maxNumber);
   const secondNumber = Math.trunc(Math.random() * maxNumber);
   const operation = operations[randomIndex];
