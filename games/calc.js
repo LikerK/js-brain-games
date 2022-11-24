@@ -7,17 +7,17 @@ export const getRound = () => {
   const firstNumber = Math.trunc(Math.random() * maxNumber);
   const secondNumber = Math.trunc(Math.random() * maxNumber);
   const operation = operations[randomIndex];
+  let answer;
+  let expression;
   if (operation === '+') {
-    const answer = firstNumber + secondNumber;
-    const expression = `${firstNumber} + ${secondNumber}`;
-    return [expression, String(answer)];
+    answer = firstNumber + secondNumber;
+    expression = `${firstNumber} + ${secondNumber}`;
+  } else if (operation === '-') {
+    answer = firstNumber - secondNumber;
+    expression = `${firstNumber} - ${secondNumber}`;
+  } else {
+    answer = firstNumber * secondNumber;
+    expression = `${firstNumber} * ${secondNumber}`;
   }
-  if (operation === '-') {
-    const answer = firstNumber - secondNumber;
-    const expression = `${firstNumber} - ${secondNumber}`;
-    return [expression, String(answer)];
-  }
-  const answer = firstNumber * secondNumber;
-  const expression = `${firstNumber} * ${secondNumber}`;
   return [expression, String(answer)];
 };
