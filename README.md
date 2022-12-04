@@ -10,7 +10,7 @@ Each game consists of three rounds.
 ## List of games:
 
 - **Brain even** - the user is shown a random number. And he needs to answer `yes`, if the number is even, or `no`, if it is odd.<br>
-[<img src = "https://asciinema.org/a/538928.svg" width = "18%" height = "130px" alt = "пример" align = "center" />](https://asciinema.org/a/538928)Example
+[<img src = "https://asciinema.org/a/538928.svg" width = "18%" height = "130px" alt = "пример" align = "center" />](https://asciinema.org/a/538928) Example
 
 - **Brain calc** - the user is shown a random mathematical expression, for example `35 + 16`, which must be calculated and the correct answer written down.<br>
 [<img src = "https://asciinema.org/a/GM5mRsr4UG9tv0t82a8TcxBtY.svg" width = "18%" height = "130px" alt = "пример" align = "center" />](https://asciinema.org/a/GM5mRsr4UG9tv0t82a8TcxBtY) Example
